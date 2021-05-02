@@ -1,0 +1,84 @@
+
+body{background-color: rgb(255, 234, 234);}
+h1{text-align: center;}
+h1{color:rgb(190, 0, 0);text-align: center;}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 128, 28);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .menu .btn {
+    font-size: 16px;  
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+  }
+  
+  .navbar a:hover, .menu:hover .btn {
+    background-color: rgb(0, 82, 18);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(211, 255, 220);
+    min-width: 160px;
+    box-shadow: 5px 5px rgb(116, 156, 118);
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(134, 204, 134);
+  }
+  
+  .menu:hover .dropdown-content {
+    display: block;
+  }
+
+  .social{
+    height: 45px;
+    margin-left: 4%;
+  }
+  
+  .socialpic1{
+    height: 50px;
+    width: 50px;
+    margin-left: 550px;
+  }
+
+  .socialpic2{
+    height: 50px;
+    width: 50px;
+    margin-left: 60px;
+  }
+
+  .spword{
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
